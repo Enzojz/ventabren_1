@@ -1,0 +1,37 @@
+function data()
+    return {
+        boundingInfo = {
+            bbMax = { 3, 4, 3.2 },
+            bbMin = { -3, 2, -3.2 }
+        },
+        collider = {
+            params = {  },
+            type = "MESH"
+        },
+        lods = {
+            {
+                node = {
+                    children = {
+                        {
+                            materials = {
+                                "bridge/ventabren/concrete.mtl"
+                            },
+                            mesh = "bridge/ventabren/lgv_railing_rep_rep.msh",
+                            transf = { 0, 1, 0, 0, 1.04, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 }
+                        }
+                    },
+                    name = "RootNode",
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 }
+                },
+                static = false,
+                visibleFrom = 0,
+                visibleTo = 2500
+            }
+        },
+        metadata = {
+            availability = { yearFrom = 0, yearTo = 0 },
+            cost = { price = 0 }
+        },
+        version = 1
+    }
+end
