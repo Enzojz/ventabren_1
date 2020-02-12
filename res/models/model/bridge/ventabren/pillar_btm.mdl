@@ -1,0 +1,41 @@
+function data() return {
+    boundingInfo = {
+        bbMax = {
+            2.423500,
+            2.098800,
+            0.107100
+        },
+        bbMin = {
+            -2.423500,
+            -2.098800,
+            -5.892900
+        }
+    },
+    collider = {
+        params = {},
+        type = "MESH"
+    },
+    lods = {
+        {
+            node = {
+                children = {
+                    {
+                        materials = {
+                            "bridge/ventabren/pillar_normals.mtl"
+                        },
+                        mesh = "bridge/ventabren/pillar_btm.msh",
+                        transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1}
+                    }
+                },
+                name = "RootNode",
+                transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1}
+            },
+            static = true,
+            visibleFrom = 0,
+            visibleTo = 2500
+        }
+    },
+    metadata = {
+    },
+    version = 1
+} end

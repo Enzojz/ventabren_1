@@ -8,7 +8,7 @@ function data()
             },
             map_albedo = {
                 compressionAllowed = true,
-                fileName = "models/bridge/ventabren/fence.dds",
+                fileName = "models/bridge/ventabren/concrete.dds",
                 magFilter = "LINEAR",
                 minFilter = "LINEAR_MIPMAP_LINEAR",
                 mipmapAlphaScale = 0,
@@ -28,6 +28,16 @@ function data()
                 wrapT = "REPEAT",
             
             },
+            map_normal = {
+                compressionAllowed = true,
+                fileName = "models/bridge/ventabren/normals.dds",
+                magFilter = "LINEAR",
+                minFilter = "LINEAR_MIPMAP_LINEAR",
+                mipmapAlphaScale = 0,
+                type = "TWOD",
+                wrapS = "REPEAT",
+                wrapT = "REPEAT"
+            },
             polygon_offset = {
                 factor = 0,
                 units = 0,
@@ -39,7 +49,7 @@ function data()
             },
         
         },
-        type = "PHYSICAL",
+        type = "PHYSICAL_NRML_MAP",
     
     }
 end

@@ -30,14 +30,13 @@ return {
 		},
 		map_normal = {
 			compressionAllowed = true,
-			fileName = "models/bridge/ventabren/pillar_normals.tga",
+			fileName = "models/bridge/ventabren/pillar_normals.dds",
 			magFilter = "LINEAR",
 			minFilter = "LINEAR_MIPMAP_LINEAR",
 			mipmapAlphaScale = 0,
 			type = "TWOD",
 			wrapS = "REPEAT",
 			wrapT = "REPEAT",
-			
 		},
 		polygon_offset = {
 			factor = 0,
