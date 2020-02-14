@@ -22,7 +22,7 @@ function data()
                 railingModels = {},
                 pillarModels = {}
             }
-            
+
             for i, height in ipairs(params.pillarHeights) do
                 local colHeight = height - 10.2
                 local nSeg = math.ceil(colHeight / 6)
@@ -60,6 +60,7 @@ function data()
                 
                 local minOffset = interval.lanes[1].offset
                 local maxOffset = interval.lanes[#interval.lanes].offset
+                local sp = params.railingWidth - (maxOffset - minOffset)
                 
                 local width = maxOffset - minOffset
                 local nPart = math.floor(width / 5)
@@ -72,11 +73,11 @@ function data()
                     local set = {
                         {
                             id = "bridge/ventabren/railing_" .. partName .. "_side.mdl",
-                            transf = {xScale, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, x, minOffset - 2, 0, 1}
+                            transf = {xScale, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, x, minOffset - sp, 0, 1}
                         },
                         {
                             id = "bridge/ventabren/railing_" .. partName .. "_side_2.mdl",
-                            transf = {xScale, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, x, maxOffset + 2, 0, 1}
+                            transf = {xScale, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, x, maxOffset + sp, 0, 1}
                         }
                     }
                     
