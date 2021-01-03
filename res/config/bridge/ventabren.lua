@@ -63,7 +63,7 @@ function data()
                 local minOffset = interval.lanes[1].offset
                 local maxOffset = interval.lanes[#interval.lanes].offset
                 
-                local sp = params.railingWidth - (maxOffset - minOffset)
+                local sp = params.railingWidth - (maxOffset - minOffset) - 2
                 
                 local width = maxOffset - minOffset
                 local nPart = math.floor(width / 5)

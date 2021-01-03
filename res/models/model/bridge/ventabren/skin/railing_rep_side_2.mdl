@@ -16,21 +16,23 @@ function data() return {
                {
                   children = {
                      {
+                        children = {
+                           {
+                              name = "bridge_bone_3m_end",
+                              transf = {
+                                 1, 0, 0, 0, 
+                                 0, 1, 0, 0, 
+                                 0, 0, 1, 0, 
+                                 3, 0, 0, 1, 
+                              }
+                           }
+                        },
                         name = "bridge_bone_3m_start",
                         transf = {
                            1, 0, 0, 0, 
                            0, 1, 0, 0, 
                            0, 0, 1, 0, 
-                           0, -2, 0, 1, 
-                        }
-                     },
-                     {
-                        name = "bridge_bone_3m_end",
-                        transf = {
-                           1, 0, 0, 0, 
-                           0, 1, 0, 0, 
-                           0, 0, 1, 0, 
-                           3, -2, 0, 1, 
+                           0, -1.999998, 0.000001, 1, 
                         }
                      }
                   },
@@ -55,7 +57,7 @@ function data() return {
          },
          static = false,
          visibleFrom = 0,
-         visibleTo = 500
+         visibleTo = 25
       },
       {
          node = {
@@ -63,29 +65,31 @@ function data() return {
                {
                   children = {
                      {
+                        children = {
+                           {
+                              name = "bridge_bone_3m_end",
+                              transf = {
+                                 1.000000, 0.000000, 0.000000, 0.000000, 
+                                 -0.000000, 1.000000, 0.000000, 0.000000, 
+                                 0.000000, 0.000000, 1.000000, 0.000000, 
+                                 3.000000, 0.000000, -0.000000, 1.000000, 
+                              }
+                           }
+                        },
                         name = "bridge_bone_3m_start",
                         transf = {
-                           1, 0, 0, 0, 
-                           0, 1, 0, 0, 
-                           0, 0, 1, 0, 
-                           0, -2, 0, 1, 
-                        }
-                     },
-                     {
-                        name = "bridge_bone_3m_end",
-                        transf = {
-                           1, 0, 0, 0, 
-                           0, 1, 0, 0, 
-                           0, 0, 1, 0, 
-                           3, -2, 0, 1, 
+                           1.000000, 0.000000, -0.000000, 0.000000, 
+                           -0.000000, 1.000000, 0.000000, 0.000000, 
+                           0.000000, 0.000000, 1.000000, 0.000000, 
+                           0.000001, -1.999998, 0.000000, 1.000000, 
                         }
                      }
                   },
                   name = "railing_rep_side_2_lod1",
                   skin = "bridge/ventabren/skin/railing_rep_side_2_lod1.msh",
-                  skinMaterials = { "bridge/ventabren/fence_skin.mtl", "bridge/ventabren/sconcrete_normals_2_skin.mtl", "bridge/ventabren/concrete_flat_skin.mtl" },
+                  skinMaterials = { "bridge/ventabren/fence_skin.mtl", "bridge/ventabren/concrete_normals_2_skin.mtl", "bridge/ventabren/concrete_flat_skin.mtl" },
                   transf = {
-                     1.000000, 0.000000, 0.000000, 0.000000, 
+                     1.000000, 0.000000, -0.000000, 0.000000, 
                      0.000000, 1.000000, 0.000000, 0.000000, 
                      0.000000, 0.000000, 1.000000, 0.000000, 
                      0.000000, 0.000000, 0.000000, 1.000000, 
@@ -101,7 +105,7 @@ function data() return {
             }
          },
          static = false,
-         visibleFrom = 500,
+         visibleFrom = 25,
          visibleTo = 5000
       }
    },
