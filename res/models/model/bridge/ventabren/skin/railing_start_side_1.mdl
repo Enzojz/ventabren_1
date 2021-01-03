@@ -1,0 +1,112 @@
+function data() return {
+   boundingInfo = {
+      bbMax = { 0.000003, 2, 2.725003 },
+      bbMin = { 0, -2.175000, -3.199999 }
+   },
+   collider = {
+      params = {
+
+      },
+      type = "MESH"
+   },
+   lods = {
+      {
+         node = {
+            children = {
+               {
+                  children = {
+                     {
+                        name = "bridge_bone_3m_start",
+                        transf = {
+                           1, 0, 0, 0, 
+                           0, 1, 0, 0, 
+                           0, 0, 1, 0, 
+                           0, 7, 0, 1, 
+                        }
+                     },
+                     {
+                        name = "bridge_bone_3m_end",
+                        transf = {
+                           1, 0, 0, 0, 
+                           0, 1, 0, 0, 
+                           0, 0, 1, 0, 
+                           3, 7, 0, 1, 
+                        }
+                     }
+                  },
+                  name = "railing_start_side_1_lod0",
+                  skin = "bridge/ventabren/skin/railing_start_side_1_lod0.msh",
+                  skinMaterials = { "bridge/ventabren/concrete_flat_skin.mtl" },
+                  transf = {
+                     1, 0, 0, 0, 
+                     0, 1, 0, 0, 
+                     0, 0, 1, 0, 
+                     0, 0, 0, 1, 
+                  }
+               }
+            },
+            name = "RootNode",
+            transf = {
+               1, 0, 0, 0, 
+               0, 1, 0, 0, 
+               0, 0, 1, 0, 
+               0, 0, 0, 1, 
+            }
+         },
+         static = false,
+         visibleFrom = 0,
+         visibleTo = 500
+      },
+      {
+         node = {
+            children = {
+               {
+                  children = {
+                     {
+                        name = "bridge_bone_3m_start",
+                        transf = {
+                           1, 0, 0, 0, 
+                           0, 1, 0, 0, 
+                           0, 0, 1, 0, 
+                           0, 7, 0, 1, 
+                        }
+                     },
+                     {
+                        name = "bridge_bone_3m_end",
+                        transf = {
+                           1, 0, 0, 0, 
+                           0, 1, 0, 0, 
+                           0, 0, 1, 0, 
+                           3, 7, 0, 1, 
+                        }
+                     }
+                  },
+                  name = "railing_start_side_1_lod1",
+                  skin = "bridge/ventabren/skin/railing_start_side_1_lod1.msh",
+                  skinMaterials = { "bridge/ventabren/concrete_flat_skin.mtl" },
+                  transf = {
+                     1.000000, 0.000000, -0.000000, 0.000000, 
+                     0.000000, 1.000000, 0.000000, 0.000000, 
+                     0.000000, 0.000000, 1.000000, 0.000000, 
+                     0.000000, 0.000000, 0.000000, 1.000000, 
+                  }
+               }
+            },
+            name = "RootNode",
+            transf = {
+               1.000000, 0.000000, 0.000000, 0.000000, 
+               0.000000, 1.000000, 0.000000, 0.000000, 
+               0.000000, 0.000000, 1.000000, 0.000000, 
+               0.000000, 0.000000, 0.000000, 1.000000, 
+            }
+         },
+         static = false,
+         visibleFrom = 500,
+         visibleTo = 5000
+      }
+   },
+   metadata = {
+
+   },
+   version = 1
+} end

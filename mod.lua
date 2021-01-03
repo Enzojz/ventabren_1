@@ -17,7 +17,7 @@ function data()
       tags = {
         "Bridge",
         "Europe",
-      },
+      }
     }
   }
 end
