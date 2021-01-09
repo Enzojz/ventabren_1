@@ -94,7 +94,7 @@ function data()
                         table.insert(set,
                             {
                                 id = "bridge/ventabren/skin/railing_" .. partName .. "_rep.mdl",
-                                transf = {xScale, 0, 0, 0, 0, yScale, 0, 0, 0, 0, 1, 0, x, minOffset + (k - 1) * wPart, 0, 1}
+                                transf = {xScale, 0, 0, 0, 0, yScale, 0, 0, 0, 0, 1, 0, x, minOffset + k * wPart, 0, 1}
                             }
                     )
                     end

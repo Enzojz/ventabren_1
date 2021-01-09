@@ -57,7 +57,7 @@ function data() return {
          },
          static = false,
          visibleFrom = 0,
-         visibleTo = 25
+         visibleTo = 200
       },
       {
          node = {
@@ -105,8 +105,8 @@ function data() return {
             }
          },
          static = false,
-         visibleFrom = 25,
-         visibleTo = 5000
+         visibleFrom = 200,
+         visibleTo = 20000
       }
    },
    metadata = {

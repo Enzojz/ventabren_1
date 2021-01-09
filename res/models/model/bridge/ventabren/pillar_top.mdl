@@ -24,7 +24,7 @@ function data() return {
          },
          static = false,
          visibleFrom = 0,
-         visibleTo = 5000
+         visibleTo = 20000
       }
    },
    metadata = {

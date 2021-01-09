@@ -42,7 +42,7 @@ function data() return {
             },
             static = true,
             visibleFrom = 0,
-            visibleTo = 2500
+            visibleTo = 20000
         }
     },
     metadata = {
